@@ -1,0 +1,76 @@
+/* ===== General Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ===== Navigation ===== */
+nav ul {
+    list-style: none;
+    background: #333;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #4CAF50;
+}
+
+/* ===== Container ===== */
+.container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #ddd;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* ===== Card Style for Box Model Example ===== */
+.card {
+    padding: 20px;       /* Space inside the border */
+    border: 3px solid #4CAF50; /* Visible border */
+    margin: 30px auto;   /* Space outside the border */
+    background-color: #e9f7ec;
+    border-radius: 8px;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
